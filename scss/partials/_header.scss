@@ -1,0 +1,53 @@
+@import "./var";
+
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+
+.header {
+    background-color: $navColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: header;
+    transition-property: 2s;
+    animation-name: gradiante;
+    height: 200px; 
+    li {
+      display: inline; 
+    }
+    a {
+      margin-left: 100px;
+      font-size: 50px;
+      color: #ffffff;
+      text-decoration: none;
+      transition-property: color, font-size;
+      transition-duration: 1s; 
+       
+      &:hover {
+        color: #410f2d;
+        font-size: 90px;
+      }
+    }
+
+  }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       
+      
+
+      

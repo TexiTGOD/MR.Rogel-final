@@ -1,0 +1,58 @@
+@import "./partials/header";
+@import "./partials/main";
+@import "./partials/body";
+@import "./partials/footer";
+@import "./partials/var";
+@import "./partials/extends";
+@import "./partials/mixin";
+
+
+
+/*full responsib*/
+@media(max-width: 390px) {
+    .header {
+      height: 100%;
+      a {
+        margin-left: 0px;
+        font-size: 32px;
+        color: #ffffff;
+        text-decoration: none; }
+     }
+      .main {
+        .quienessomos {
+          width: 98%;
+          height: auto;
+          padding: 10px 50px;
+          margin: 10px auto;
+          border: solid black 5px;
+          overflow: auto; }
+          .map {
+            height: 200px;
+            width: 300px; }
+          .quienessomos1 {
+            margin: 50px; }
+            .tituloxl {
+              font-size: 60px;
+              color: #000000;
+              display: flex;
+              text-align: center; }
+              .quienessomos1 {
+              margin: 50px; }
+           }
+           #prod {
+            display: flex;
+            flex-direction:column ;
+            .produ {
+              width: 200px;
+              height: 200px;
+            }
+        }
+
+
+            .productos {
+              display: flex;
+              flex-wrap: wrap;
+            }
+          }
+  
+  /*full responsib*/

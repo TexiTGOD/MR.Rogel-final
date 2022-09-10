@@ -1,0 +1,30 @@
+/*comienzo de fondo*/
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:150px;
+	max-width: 100%;
+	position: relative
+}
+
+.img-uno{
+    background-image: url(https://cdn.discordapp.com/attachments/915642143706587196/1017218384217264128/fondoladrllo-min_1.jpg);
+}
+
+/*fin de fondo*/
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px auto 100px;
+    grid-template-areas: 
+    "header"
+    "main" 
+    "footer";
+    }
+
+
+    

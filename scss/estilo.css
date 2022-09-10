@@ -1,0 +1,118 @@
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.quienessomos {
+  width: 80%;
+  height: auto;
+  padding: 10px 50px;
+  /*el padding sirve para ponerle "sombra" a las cajas, para que se acomode el tecto de adentro*/
+  margin: 10px auto;
+  /*sirve para centrar el elemento*/
+  border: solid black 5px;
+  overflow: auto;
+}
+
+h1 {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.titulos {
+  font-size: 60px;
+}
+
+.tituloxl {
+  font-size: 3rem;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.quienessomos1 {
+  display: flex;
+  justify-content: center;
+  border: #000000 solid;
+  margin: 100px;
+  height: 600px;
+}
+
+.quienessomos1 iframe {
+  width: 100%;
+}
+
+#sale1 {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  justify-content: flex-end;
+}
+
+/*comienzo de fondo*/
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  max-width: 100%;
+  position: relative;
+}
+
+.img-uno {
+  background-image: url(../img/fondoladrllo.jpg);
+}
+
+/*fin de fondo*/
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 200px auto 100px;
+  grid-template-areas: "header" "main" "footer";
+}
+
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 100%;
+  }
+  .header__nav ul li a {
+    margin-left: 60px;
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .tituloxl {
+    font-size: 60px;
+    color: #000000;
+    display: flex;
+    text-align: center;
+  }
+  .quienessomos {
+    width: 98%;
+    height: auto;
+    padding: 10px 50px;
+    margin: 10px auto;
+    border: solid black 5px;
+    overflow: auto;
+  }
+  .map {
+    height: 400px;
+    width: 300px;
+  }
+  .quienessomos1 {
+    margin: 50px;
+  }
+}
