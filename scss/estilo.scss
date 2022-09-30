@@ -10,25 +10,43 @@
 
 /*full responsib*/
 @media(max-width: 390px) {
+  .casa {
+    margin-top: 25px !important;
+  }
+
+
     .header {
-      height: 100%;
-      a {
-        margin-left: 0px;
-        font-size: 32px;
-        color: #ffffff;
-        text-decoration: none; }
-     }
+      height: 226px;
+
+      .heder_Nav_Ul{
+        display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 0rem !important;
+      padding-left: 0rem;
+
+          li {
+
+            
+            a {
+              margin-left: 70px;
+              font-size: 40px;
+              color: #ffffff;
+              text-decoration: none; 
+              }
+            }
+          }
+        }
+        }
       .main {
+        margin-top: 30px;
         .quienessomos {
           width: 98%;
           height: auto;
           padding: 10px 50px;
-          margin: 10px auto;
+          margin: 40px auto;
           border: solid black 5px;
           overflow: auto; }
-          .map {
-            height: 200px;
-            width: 300px; }
+          
           .quienessomos1 {
             margin: 50px; }
             .tituloxl {
@@ -38,21 +56,30 @@
               text-align: center; }
               .quienessomos1 {
               margin: 50px; }
-           }
-           #prod {
-            display: flex;
-            flex-direction:column ;
+             
+              .section3 {
+                margin: 5%;
+              }
+           
+
             .produ {
               width: 200px;
               height: 200px;
             }
-        }
 
 
+        
             .productos {
               display: flex;
               flex-wrap: wrap;
-            }
-          }
+             
   
-  /*full responsib*/
+            
+            .prod {
+              display: flex;
+              flex-direction:column;
+              justify-content: space-around;
+            }
+  
+          }
+        }

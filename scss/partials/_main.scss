@@ -2,7 +2,7 @@
 .main {
     grid-area: main;
     
-   
+    
     .quienessomos{
         width: 80%;
         height: auto;
@@ -62,25 +62,23 @@
         padding: 0;
         display: flex;
         justify-content: space-around;
-    .imgParametros1 {
-       @include tamañoImagen(200px,200px)
+    .card-img-top:hover {
+        filter: grayscale(1);
     }
-    .imgParametros2 {
-        @include tamañoImagen(200px,200px)
-     }
-     .imgParametros3 {
-        @include tamañoImagen(200px,200px)
-     }
-     .imgParametros4 {
-        @include tamañoImagen(200px,200px);
-        
+    .card {
+        margin: 50px 
+    }
+    .prod {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+        margin-top: 100px;
+
+    }
     
 
      }
     }
-    #prod {
-        display: flex;
-        margin-top: 100px;
-    }
+
         
-}   
+ 

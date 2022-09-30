@@ -8,6 +8,9 @@
     font-family: 'Dosis', sans-serif;
     font-size: 40px;
 }
+.logo {
+  margin-left: 10px;
+}
 
 .header {
     background-color: $navColor;
@@ -18,36 +21,28 @@
     transition-property: 2s;
     animation-name: gradiante;
     height: 200px; 
+
+  
+   
     li {
       display: inline; 
-    }
+    
     a {
       margin-left: 100px;
       font-size: 50px;
       color: #ffffff;
       text-decoration: none;
       transition-property: color, font-size;
-      transition-duration: 1s; 
+      transition-duration: 0.5s; 
        
       &:hover {
         color: #410f2d;
-        font-size: 90px;
+        font-size: 60px;
       }
+    
     }
+  }
 
   }
 
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-       
-      
-
-      

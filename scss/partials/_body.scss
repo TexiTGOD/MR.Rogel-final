@@ -25,6 +25,17 @@
     "main" 
     "footer";
     }
+    
+.container1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px auto 100px;
+    grid-template-areas: 
+    "header"
+    "main" 
+    "footer";
+    }
+
 
 
     
